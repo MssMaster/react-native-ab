@@ -1,16 +1,39 @@
 {
-  "name": "react-native-ab",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lwansbrough/react-native-ab.git"
+  "_from": "react-native-ab@^0.1.0",
+  "_id": "react-native-ab@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-zbfANGtSgQxQhpqEFlvjBZ8VLtc=",
+  "_location": "/react-native-ab",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-ab@^0.1.0",
+    "name": "react-native-ab",
+    "escapedName": "react-native-ab",
+    "rawSpec": "^0.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.0"
   },
-  "version": "0.1.2",
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-ab/-/react-native-ab-0.1.0.tgz",
+  "_shasum": "cdb7c0346b52810c50869a84165be3059f152ed7",
+  "_spec": "react-native-ab@^0.1.0",
+  "_where": "/Users/karnikasingh/Desktop/ReactNativeProjects/MagentoBaseApp",
+  "author": {
+    "name": "Lochlan Wansbrough",
+    "email": "lochie@live.com",
+    "url": "http://lwansbrough.com"
+  },
+  "bugs": {
+    "url": "https://github.com/lwansbrough/react-native-ab/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "A component for rendering A/B tests in React Native",
-  "main": "index.js",
-  "author": "Lochlan Wansbrough <lochie@live.com> (http://lwansbrough.com)",
-  "peerDependencies": {
-    "react-native": "*"
-  },
+  "homepage": "https://github.com/lwansbrough/react-native-ab#readme",
   "keywords": [
     "react",
     "native",
@@ -19,5 +42,15 @@
     "testing",
     "experiment",
     "variant"
-  ]
+  ],
+  "main": "index.js",
+  "name": "react-native-ab",
+  "peerDependencies": {
+    "react-native": "^0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwansbrough/react-native-ab.git"
+  },
+  "version": "0.1.0"
 }

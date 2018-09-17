@@ -1,7 +1,7 @@
 var React = require('react-native');
-var { PropTypes } = React;
-
-var Variant = React.createClass({
+import PropTypes from "prop-types";
+var createReactClass = require("create-react-class");
+var Variant = createReactClass({
   propTypes: {
     name: PropTypes.string.isRequired,
     children: PropTypes.element.isRequired
@@ -9,10 +9,6 @@ var Variant = React.createClass({
 
   render() {
     return this.props.children;
-  },
-
-  getName() {
-    return this.props.name;
   },
 
   isVariant: true
