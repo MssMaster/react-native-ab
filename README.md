@@ -4,7 +4,7 @@ A component for rendering A/B tests in React Native.
 
 ## Getting started
 
-1. `npm install MssMaster/react-native-ab@latest --save`
+1. `npm install MssMaster/react-native-ab --save`
 
 ## Usage
 
